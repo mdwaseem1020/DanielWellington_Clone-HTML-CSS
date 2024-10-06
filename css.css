@@ -1,0 +1,505 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.firstnav{
+    height: 37px;
+    font-size: small;
+    letter-spacing: 2px;
+    color: rgb(161, 144, 51);
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    
+}
+ul{
+    list-style-type: none;
+}
+
+.secondnav ul{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+
+}
+#car{
+    position: absolute;
+    left: 260px;
+    color: black;
+    top: 50px;
+    width: 10px;
+    height: 10px;
+
+}
+#free{
+    position: absolute;
+    left:280px;
+    top:50px;
+}
+#lock{
+    position: absolute;
+    left: 680px;
+    top:50px;
+}
+#secure{
+    position: absolute;
+    left:700px;
+    top:50px;
+}
+#cash{
+    position: absolute;
+    left: 1100px;
+    top:50px;
+}#on{
+    position: absolute;
+    left: 1120px;
+    top: 50px;
+}
+.thirdnav{
+    background-color: rgb(24, 22, 22);
+    color: white;
+    width: 100%;
+    height: 120px;
+    list-style-type: none;
+    display: flex;
+    position: -webkit-sticky;
+    position:sticky;
+    top:20px;
+}
+.stick1{
+    position:sticky;
+    top:30px;
+}
+#daniel{
+    font-size: medium;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    display: inline-block;
+    position: absolute;
+    left: 600px;
+    top:18px;
+    color: white;
+    letter-spacing: 11px;
+}
+#heart{
+    position: absolute;
+    left: 1428px;
+    top: 18px;
+}
+#box{
+    position: absolute;
+    left: 1480px;
+    top: 18px;
+}
+#line{
+    position: absolute;
+    left: 32px;
+    top: 18px;
+}
+#search1{
+    position: absolute;
+    left: 75px;
+    top: 18px;  
+}
+.thirdsubdiv ul{
+    font-size: small;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 90px;
+    left: 430px;
+}
+#watch{
+    position: absolute;
+    left:50px
+}
+#jewel{
+    position: absolute;
+    left:130px
+}
+#access{
+    position: absolute;
+    left:205px
+}
+#gi{
+    position: absolute;
+    left:310px
+}
+#ins{
+    position: absolute;
+    left: 360px
+}
+#exclus{
+    position: absolute;
+    left:465px;
+}
+#off{
+    position: absolute;
+    left:543px;
+}
+img{
+    
+    width: 100%;
+}
+#mensss{
+    position: absolute;
+    top:550px;
+    left:890px;
+    font-size: 80px;
+    font-weight: 100;
+
+}
+#make{
+    height: 300px;
+}
+#a{
+    position: absolute;
+    top: 820px;
+     left:600px;
+
+  
+    font-size: larger;
+
+}
+.picture{
+    height: 600px;
+    background-image: url('https://in.danielwellington.com/cdn/shop/files/mens-watches-2500x1200.jpg?v=1697832578&width=1500');
+    background-size: cover; /* Adjusts the size of the background image */
+    background-position: bottom; /* Centers the image */
+    background-repeat: no-repeat; 
+  /* background-attachment: fixed;*/
+   background-position-y: bottom;
+}
+#One{
+    top:0px;
+position:sticky;
+background-color: blueviolet;
+}
+#filter{
+    position: relative;
+    top:82px;
+    left:139px;
+}
+#filter1{
+    display: inline-block;
+    position: relative;
+    top:78px;
+    left:140px;
+}
+#defaul{
+    position: relative;
+    top:78px;
+    left:1320px;
+}
+#default1{
+    display: inline-block;
+    position: relative;
+    top:77px;
+    left:1230px;
+
+}
+#watch1{
+    margin-right: 20px;
+    height: 290px;
+    width:290px
+}
+/* #watch1:hover{
+    transform: scale(1.05)
+} */
+#space1{
+
+    background-color: rgb(245, 242, 242);
+    margin-top: -160px;
+    margin-left: 140px;
+    margin-right: 70px;
+    height: 400px;
+    width: 315px;
+    display: inline-block;
+    /* transform: translateY(-90px); */
+    /* border: 1px solid blue; */
+}
+.stle{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    margin-left: 8px;
+    letter-spacing: 4px;
+}
+.black{
+
+    height: 2px;
+    width: 2px;
+    border: 8px solid black;
+    background-color: black;
+    border-radius: 50%;
+}
+.yellow{
+    height: 2px;
+    width: 2px;
+    border: 8px solid yellow;
+    background-color: yellow;
+    border-radius: 50%;
+}
+.grey{
+    height: 2px;
+    width: 2px;
+    border: 8px solid grey;
+    background-color: grey;
+    border-radius: 50%;
+}
+.black,.grey,.yellow{
+    display: inline-block;
+    margin: 3px;
+}
+#space22{
+    display: inline-block;
+    background-color: rgb(245, 242, 242);
+    margin-top: -83px;
+    margin-left: -70px;
+    height: 400px;
+    width: 315px;
+    /* transform: translateY(-90px) */
+
+}
+#space23{
+    
+    display: inline-block;
+    background-color: rgb(245, 242, 242);
+    margin-top: -83px;
+    margin-left: 1px;
+    height: 400px;
+    width: 315px;
+    /* transform: translateY(-90px) */
+
+
+}
+#space24{
+    display: inline-block;
+    background-color: rgb(245, 242, 242);
+    margin-top: -83px;
+    margin-left: 2px;
+    height: 400px;
+    width: 315px;
+
+}
+#row1{
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 140px;
+    background-color: rgb(245, 242, 242);
+    width: 315px;
+    height: 400px;
+}
+#row12{
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 1px;
+    background-color: rgb(245, 242, 242);
+    width: 315px;
+    height: 400px;
+}
+#row13{
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 1px;
+    background-color: rgb(245, 242, 242);
+    width: 315px;
+    height: 400px;
+}
+#row14{
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 1px;
+    background-color: rgb(245, 242, 242);
+    width: 315px;
+    height: 400px;
+}
+.off1{
+    display: block;
+    width: 100px;
+    margin-left: 20px;
+    border: none;
+    background-color: rgb(196, 196, 129);
+    color: black;
+}
+#row2image{
+    display: inline-block;
+    margin-top: 7px;
+    margin-left: 138px;
+    width: 315px;
+    height: 400px;
+}
+#row212{
+    display: inline-block;
+    margin-top: -550px;
+    margin-left: 460px;
+    background-color: rgb(245, 242, 242);
+    width: 315px;
+    height: 400px;
+}
+/* #row213{
+    display: inline-block;
+    margin-top: -600px;
+    margin-left: 780px;
+    background-color: rgb(245, 242, 242);
+    width: 315px;
+    height: 400px;
+} */
+/* #js{
+    display: inline-block;
+    background-color: rgb(245, 242, 242);
+margin-top: -8px;    
+margin-left: 2px;
+width: 315px;
+    height: 410px;
+} */
+#chair{
+    width: 315px;
+    height: 400px;
+    margin-top: -406px;
+    margin-left: 460px;
+    background-color: rgb(245, 242, 242);
+}
+#chair22{
+    width: 315px;
+    height: 400px;
+    margin-top: -400px;
+    margin-left: 780px;
+    background-color: rgb(245, 242, 242);
+}
+/* #chair11
+    {
+        width: 315px;
+        height: 400px;
+        margin-top: -500px;
+        margin-left: 660px;
+        background-color: rgb(245, 242, 242);
+     */
+#chair2233{
+    width: 315px;
+    height: 400px;
+    margin-top: -400px;
+    margin-left: 1100px;
+    background-color: rgb(245, 242, 242);
+
+}
+#height1{
+    height: 400px;
+    width: 650px;
+    margin-left: 120px;
+    margin-top: 200px;
+}
+/* #height1:hover{
+    transform: scale(1.01);
+} */
+#width1{
+    height: 300px;
+    width: 620px;
+    margin-left: 775px;
+    margin-top: -400px;
+}
+#boxx{
+    height: 15px;
+    border:1px solid blue;
+    background-color: wheat;
+    color: white;
+    text-align: center;
+    margin-top: -150px;
+}
+#ton{
+    margin-top: 360px;
+    margin-left: 115px;
+}
+#care{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 110px;
+    height: 500px;
+    width: 350px;
+}
+#care1{
+    margin-top: -500px;
+    margin-left: 480px;
+    height: 500px;
+    width: 350px;
+}
+#card22{
+    margin-top: -500px;
+    margin-left: 605px;
+ 
+    width: 315px;
+    height: 400px;
+
+}
+#clip1{
+
+
+    width: 720px;
+    height: 420px;
+    
+}
+#care123{
+    /* position: relative; */
+    top:-10px;
+    margin-top: -600px; 
+    margin-left: 1100px;
+    height: 415px;
+    width: 290px;
+}
+#wa{
+    display: inline-block;
+    margin-top: 70px;
+    margin-left: 600px;
+    text-align: center;
+}
+#se{
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    padding: 50px 200px 30px 200px;
+}
+#bad{
+    display: inline-block;
+    height: 900px;
+    background-color: rgb(243, 240, 240);
+}
+#good{
+    display: inline-block;
+    height: 400px;
+    width: 100%;
+    background-color: black;
+}
+.join{
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    position: relative;
+    top: 30px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+}
+.lift{
+    position: relative;
+    top:20px;
+    padding: 40px 250px 0px 200px;
+}
+#tell{
+    display: inline-block;
+    height: 40px;
+    width: 500px;
+    position: relative;
+    top:50px;
+    left: 340px;
+}
+#up{
+    display: inline-block;
+    position: relative;
+    top:45px;
+    left:370px;
+    color: white;
+}
